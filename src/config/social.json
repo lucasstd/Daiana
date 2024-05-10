@@ -1,0 +1,20 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/staudtadvocacia"
+    },
+    {
+      "name": "linkedin",
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/daiana-staudt-ab520017/"
+    },
+    {
+      "name": "linkedin",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/daiana.staudtadvogada/"
+    }
+
+  ]
+}
