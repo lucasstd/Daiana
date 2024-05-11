@@ -46,3 +46,6 @@ const getData = (folder, groupDepth) => {
   return publishedPages;
 };
 
+if (!fs.existsSync(JSON_FOLDER)) {
+  fs.mkdirSync(JSON_FOLDER);
+}

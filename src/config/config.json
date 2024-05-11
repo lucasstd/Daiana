@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "Daiana Staudt",
+    "base_url": "https://daianastaudt.adv.br",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "150",
-    "logo_height": "30"
+    "logo_width": "50",
+    "logo_height": "40"
   },
 
   "settings": {
@@ -23,8 +23,8 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "Daiana Staudt",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "Daiana Staudt Advogada de Porto Alegre"
   }
 }
