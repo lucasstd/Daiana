@@ -1,16 +1,12 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "Sobre mim",
+      "url": "/sobre"
     },
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Contato",
+      "url": "/contato"
     },
     {
       "name": "Pages",
@@ -20,18 +16,6 @@
         {
           "name": "Contact",
           "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
         },
         {
           "name": "Tags",

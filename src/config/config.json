@@ -6,10 +6,8 @@
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_height": "30"
   },
 
   "settings": {
@@ -17,8 +15,7 @@
     "sticky_header": true,
     "default_theme": "system",
     "pagination": 2,
-    "summary_length": 200,
-    "blog_folder": "blog"
+    "summary_length": 200
   },
 
   "params": {
