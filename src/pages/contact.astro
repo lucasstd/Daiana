@@ -20,10 +20,11 @@ const { title, description, meta_title, image } = contact.data;
     <div class="container">
       <div class="row">
         <div class="mx-auto md:col-10 lg:col-6">
+          <h2>Contatos</h2>
           <form action={contact_form_action} method="POST">
             <div class="mb-6">
               <label for="name" class="form-label">
-                Full Name <span class="text-red-500">*</span>
+                Nome <span class="text-red-500">*</span>
               </label>
               <input
                 id="name"
@@ -35,7 +36,19 @@ const { title, description, meta_title, image } = contact.data;
             </div>
             <div class="mb-6">
               <label for="email" class="form-label">
-                Working Mail <span class="text-red-500">*</span>
+                Telefone para contato <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="john.doe@email.com"
+                type="email"
+              />
+            </div>
+            <div class="mb-6">
+              <label for="email" class="form-label">
+                Email <span class="text-red-500">*</span>
               </label>
               <input
                 id="email"
@@ -47,14 +60,14 @@ const { title, description, meta_title, image } = contact.data;
             </div>
             <div class="mb-6">
               <label for="message" class="form-label">
-                Anything else? <span class="text-red-500">*</span>
+                Algo a mais que queira escrever? <span class="text-red-500">*</span>
               </label>
               <textarea
                 id="message"
                 name="message"
                 class="form-input"
                 placeholder="Message goes here..."
-                rows="8"></textarea>
+                rows="2"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
