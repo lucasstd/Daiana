@@ -7,7 +7,6 @@ import Header from "@/partials/Header.astro";
 import "@/styles/main.scss";
 import { AstroFont } from "astro-font";
 import { ViewTransitions } from "astro:transitions";
-import SearchModal from "./helpers/SearchModal";
 
 // font families
 const pf = theme.fonts.font_family.primary;
@@ -52,11 +51,6 @@ const { title, meta_title, description, image, noindex, canonical } =
       name="theme-color"
       media="(prefers-color-scheme: light)"
       content="#fff"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#000"
     />
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -136,22 +130,6 @@ const { title, meta_title, description, image, noindex, canonical } =
       content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
     />
 
-    <!-- twitter-title -->
-    <meta
-      name="twitter:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
-      )}
-    />
-
-    <!-- twitter-description -->
-    <meta
-      name="twitter:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
-
     <!-- og-image -->
     <meta
       property="og:image"
@@ -160,18 +138,10 @@ const { title, meta_title, description, image, noindex, canonical } =
       }`}
     />
 
-    <!-- twitter-image -->
-    <meta
-      name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
     <Header />
-    <SearchModal client:load />
     <main id="main-content">
       <slot />
     </main>

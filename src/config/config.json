@@ -11,7 +11,6 @@
   },
 
   "settings": {
-    "search": true,
     "sticky_header": true,
     "default_theme": "system",
     "pagination": 2,
@@ -21,12 +20,6 @@
   "params": {
     "contact_form_action": "#",
     "copyright": "© Daiana Staudt Advogada de Porto Alegre - Escritório de Advocacia - Direito Imobiliário"
-  },
-
-  "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
-    "settings": {}
   },
 
   "metadata": {

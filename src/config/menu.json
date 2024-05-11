@@ -2,11 +2,11 @@
   "main": [
     {
       "name": "Sobre mim",
-      "url": "/sobre"
+      "url": "/about"
     },
     {
       "name": "Contato",
-      "url": "/contato"
+      "url": "/contact"
     },
     {
       "name": "Pages",
@@ -18,19 +18,16 @@
           "url": "/contact"
         },
         {
-          "name": "Tags",
-          "url": "/tags"
+          "name": "Sobre",
+          "url": "/about"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Contatos"
+      "name": "Contatos",
+      "url": "/contact"
     }
   ]
 }
