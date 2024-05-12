@@ -8,8 +8,7 @@ testimonials:
   - name: "Luana Barcelos"
     # designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Eu fui muito bem atendida,ela tirou todas as minhas dúvidas,super atenciosa e prestativa.
-Sem falar que não teve hora para me atender pois me atende até fora da hora comercial."
+    content: "Eu fui muito bem atendida,ela tirou todas as minhas dúvidas,super atenciosa e prestativa. Sem falar que não teve hora para me atender pois me atende até fora da hora comercial."
 
   - name: "Claúdia Araújo"
     # designation: "Web Designer"
