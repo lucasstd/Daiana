@@ -26,11 +26,7 @@ export default defineConfig({
     AutoImport({
       imports: [
         "@/shortcodes/Button",
-        "@/shortcodes/Accordion",
-        "@/shortcodes/Notice",
         "@/shortcodes/Video",
-        "@/shortcodes/Tabs",
-        "@/shortcodes/Tab",
       ],
     }),
     mdx(),
