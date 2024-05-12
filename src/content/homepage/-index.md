@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Agende sua visita"
-    link: "https://github.com/zeon-studio/astroplate"
+    link: "/contact"
 
 # Features
 features:
@@ -33,7 +33,7 @@ features:
     button:
       enable: true
       label: "Botão"
-      link: "https://github.com/zeon-studio/astroplate"
+      link: "/contact"
 
   # - title: "The Top Reasons to Choose Astro for Your Next Project"
   #   image: "/images/service-3.png"
